@@ -59,6 +59,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener,
     private var dbHelper: DbHelper? = null
     private lateinit var mDbWorkerThread: DbWorkerThread
     private val mUiHandler = Handler()
+    private var string = "Arun"
 
     private var userId: String? = null
     private var password: String? = null
